@@ -1,5 +1,6 @@
 #/usr/bin/env/ruby
 
-puts "Entrez quelque chose..."
-mot = gets.split(" ")
-puts mot
+# Boucle 'for' qui affiche les arguments passés en ligne de commande
+for arg in ARGV do 
+    puts arg
+end
